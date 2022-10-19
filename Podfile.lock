@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (5.6.2)
+  - Magics (2.2.4)
+  - Nimble (10.0.0)
+  - OHHTTPStubs/Core (9.1.0)
+  - OHHTTPStubs/Default (9.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.1.0)
+  - OHHTTPStubs/Swift (9.1.0):
+    - OHHTTPStubs/Default
+  - Quick (5.0.1)
+  - Realm (10.32.0):
+    - Realm/Headers (= 10.32.0)
+  - Realm/Headers (10.32.0)
+  - RealmSwift (10.32.0):
+    - Realm (= 10.32.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Magics
+  - Nimble
+  - OHHTTPStubs/Swift
+  - Quick
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Magics
+    - Nimble
+    - OHHTTPStubs
+    - Quick
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  Magics: 5c61d580448dcf2b600d58adcee0fc9fbcaa4043
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  OHHTTPStubs: 90eac6d8f2c18317baeca36698523dc67c513831
+  Quick: 749aa754fd1e7d984f2000fe051e18a3a9809179
+  Realm: a00e93347b8d26d372c7a82f6c0b08d6536a21c8
+  RealmSwift: fe09c29ca409f8f905fe4086f2a52936193f2e3d
+
+PODFILE CHECKSUM: f0584c30a00fd46a2235b7bc3c2b2d4d4b2df4c2
+
+COCOAPODS: 1.11.3
